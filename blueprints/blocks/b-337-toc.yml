@@ -1,0 +1,33 @@
+name: 
+  is: "337: TOC"
+  en: "337: TOC"
+# D436
+icon: tag
+# preview: image
+
+
+tabs:
+
+##
+##
+##
+##
+##          Almennt (Tab)
+##
+##
+##
+##
+
+  general:
+    label: Grunnstillingar
+
+    fields:
+
+
+      info:
+        label: false
+        type: info
+        theme: none # info (default blue), positive (green), negative (red)
+        text: |
+          Gott með þetta yfirlit. 
+
