@@ -5,5 +5,6 @@ Kirby::plugin('white/b-337-toc', [
   ],
   'snippets' => [
     'blocks/b-337-toc'   => __DIR__ . '/snippets/blocks/b-337-toc.php',
-  ]
+    'b-337-toc-css'   => __DIR__ . '/snippets/b-337-toc-css.php',
+  ],
 ]);
