@@ -34,11 +34,6 @@ right: 0;
 bottom: 0;
 }
 
-.element-h2 a:hover,
-.element-h3 a:hover,
-.element-h4 a:hover,
-.element-h5 a:hover,
-.element-h6 a:hover { background-color: rgb(var(--site_brand_color) / 100% ); color: rgb(var(--color-bright)) }
 
 .element-h2 { font-weight: 600; font-size: 1.1111rem; color: rgb(var(--site_text_color) / 90%); }
 .element-h3 { font-weight: 600; font-size: 1.0556rem; color: rgb(var(--site_text_color) / 70%); }
@@ -46,11 +41,19 @@ bottom: 0;
 .element-h5 { font-weight: 400; font-size: 0.9444rem; color: rgb(var(--site_text_color) / 40%); }
 .element-h6 { font-weight: 400; font-size: 0.8999rem; color: rgb(var(--site_text_color) / 30%); }
 
-.element-h2 a { color: rgb(var(--site_text_color) / 90%);}
-.element-h3 a { color: rgb(var(--site_text_color) / 80%);}
-.element-h4 a { color: rgb(var(--site_text_color) / 70%);}
-.element-h5 a { color: rgb(var(--site_text_color) / 60%);}
-.element-h6 a { color: rgb(var(--site_text_color) / 50%);}
+.element-h2 a { color: rgb(var(--site_text_color) / 90%); transition: ease .3s all;}
+.element-h3 a { color: rgb(var(--site_text_color) / 80%); transition: ease .3s all;}
+.element-h4 a { color: rgb(var(--site_text_color) / 70%); transition: ease .3s all;}
+.element-h5 a { color: rgb(var(--site_text_color) / 60%); transition: ease .3s all;}
+.element-h6 a { color: rgb(var(--site_text_color) / 50%); transition: ease .3s all;}
+
+
+.b-337-toc .element-h2 a:hover,
+.b-337-toc .element-h3 a:hover,
+.b-337-toc .element-h4 a:hover,
+.b-337-toc .element-h5 a:hover,
+.b-337-toc .element-h6 a:hover { background: rgb(var(--brandcolor)); color: rgb(var(--white)); transition: ease .3s all; }
+
 
 
 

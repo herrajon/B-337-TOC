@@ -18,7 +18,7 @@ B-337 TOC
 
 ?>
 
-<div class="b-337">
+<div class="b-337 b-337-toc">
 <h2><a href="#" class="toc-item"><?= $page->title() ?></a></h2>
 <?php 
 $all_headings = []; // Initialize an array to collect all headings from all columns
